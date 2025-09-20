@@ -1,0 +1,57 @@
+.header {
+  background: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  text-align: center;
+  background: rgb(137, 137, 230);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 10px;
+  line-height: 1.5;
+  color: navy;
+}
+
+.nav-bar a:hover {
+  background-color: navy;
+  color: white;
+  border-radius: 10px;
+}
+
+.sidebar {
+  background: lightgray;
+  float: left;
+  width: 20%;
+  border: 1px solid #ccc;
+  margin: 15px 10px 15px 15px;
+  padding: 10px;
+}
+
+.main {
+  background: lightgray;
+  float: left;
+  width: 75%;
+  border: 1px solid #ccc;
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: navy;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
